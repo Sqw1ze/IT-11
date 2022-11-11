@@ -7,7 +7,7 @@
         .footer
         {
             position: fixed;
-            left:0; 
+            left:0;
             bottom : 0;
             background-color: yellow;
             text-align: center;
@@ -15,24 +15,54 @@
             border-top: 2px solid rgb(16, 33, 187);
         }
     </style>
-<body> 
-    <div id="header"> 
-        <center>
-            <h1>Таблиця The International 2022 Dota2</h1>
-        </center>
-    </div>
+    <style>
+        .menu
+        {
+            list-style-type: none;
+            width : 100;
+            border-top : 1px solid rgba(88, 88, 158, 0.445);
+            background-color: rgba(209, 209, 46, 0.425)
+            padding-left: 0;
+        }
+    </style>
+    <style>
+    .li {display: inline-block; }
+    </style>
+    <style>
+        button
+        {
+            background-color: rgb(255, 255, 255);
+            color :     blueviolet;
+        }
+        .button:hover
+            {
+            Background-color : black;
+            transition: 1s;
+            }
+    </style>
+    <script>
+     this.style.color = 'red';
+    </script>
+<body>
+    <div id="header" style=text-align:center >
+        <ul class="menu">
+        <li class ="li"> <button class="button">Home</button></li>
+            <li class ="li"> <button class="button">Winners</button></li>
+            <li class ="li"> <button class="button">Comands list</button></li>
+        </div>
     <div style="display: flex;">
         <div style="flex-grow: 1;">
-            Ліва колонка
+
         </div>
     <div style="flex-grow: 3;">
      <center>
+        <h1>Таблиця The International 2022 Dota2</h1>
     <table border="1" width="500">
     <tr>
         <td>#</td>
         <td>Команда</td>
         <td>Очки</td>
-    </tr>    
+    </tr>
     <tr>
         <td >1</td>
         <td>Tundra<br>Team Liquid</td>
@@ -50,7 +80,7 @@
     <tr>
         <td >4</td>
         <td>OG<br>Team Aster</td>
-        <td>10</td>     
+        <td>10</td>
     </tr>
     <tr>
         <td >5</td>
@@ -65,14 +95,13 @@
     </tr>
     </table>
     <br>
-    <iframe width="460" height="275" src="https://www.youtube.com/embed/nybtOIxlku8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </center> 
+    <iframe width="425"  heigh="475" src="https://www.youtube.com/embed/nybtOIxlku8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
 </div>
 <div class="footer">
 Слава Україні
 </div>
 <div style="flex-grow: 1;">
-    Права колонка
-</div>   
+</div>
 </body>
 </html>
